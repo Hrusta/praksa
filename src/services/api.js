@@ -5,7 +5,7 @@ const initialToken = localStorage.getItem('token') || '';
 
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: 'https://praksa-th8k.onrender.com',
   headers: initialToken
     ? { Authorization: `Bearer ${initialToken}` }
     : {},
