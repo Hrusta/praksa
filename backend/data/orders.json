@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1753750072011,
+    "items": [
+      {
+        "id": 2,
+        "name": "Apple iPhone 13",
+        "qty": 2,
+        "price": 999.0
+      }
+    ],
+    "createdAt": "2025-07-29T00:47:52.358756",
+    "acceptedAt": "2025-07-29T14:37:31.239795",
+    "customer": {
+      "name": "asd",
+      "surname": "asd",
+      "address": "asd",
+      "phone": "asd",
+      "email": "asd@asd"
+    },
+    "status": "Finished",
+    "totalPrice": 1998.0
+  },
+  {
+    "id": 1753796551404,
+    "items": [
+      {
+        "id": 13,
+        "name": "Vivo X60",
+        "qty": 1,
+        "price": 629.0
+      }
+    ],
+    "createdAt": "2025-07-29T13:42:31.438065",
+    "acceptedAt": null,
+    "customer": {
+      "name": "asd",
+      "surname": "asd",
+      "address": "asd",
+      "phone": "asd",
+      "email": "asd@asd"
+    },
+    "status": "Accepted",
+    "totalPrice": 629.0
+  }
+]

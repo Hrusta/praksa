@@ -1,0 +1,92 @@
+.product-detail-page {
+  max-width: 480px;
+  margin: var(--gap) auto;
+  padding: var(--gap);
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+
+.pd-title {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+
+.pd-image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+.pd-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.pd-info {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gap) / 2);
+}
+.pd-desc {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.4;
+}
+.pd-meta {
+  margin: 0;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.pd-actions {
+  display: flex;
+  gap: var(--gap);
+  justify-content: center;
+  margin-top: var(--gap);
+}
+.btn-edit,
+.btn-delete {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: background var(--fast);
+  text-decoration: none;
+  text-align: center;
+}
+.btn-edit {
+  background: var(--primary);
+  color: var(--surface);
+  border: none;
+}
+.btn-edit:hover {
+  background: var(--primary-dark);
+}
+.btn-delete {
+  background: #e53935;
+  color: var(--surface);
+  border: none;
+}
+.btn-delete:hover {
+  background: #d32f2f;
+}
+
+
+@media (max-width: 400px) {
+  .product-detail-page {
+    padding: calc(var(--gap) / 2);
+  }
+  .pd-actions {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,11 @@
+.dashboard {
+  background: var(--color-surface);
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.dashboard h2 {
+  margin-top: 0;
+  color: var(--color-primary);
+}

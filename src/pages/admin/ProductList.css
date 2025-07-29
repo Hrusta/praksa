@@ -1,0 +1,79 @@
+.product-list-page {
+  background: var(--surface);
+  padding: var(--gap);
+  border-radius: var(--radius);
+  max-width: var(--container-max);
+  margin: 0 auto var(--gap);
+}
+
+.product-list-page h2 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  margin-bottom: var(--gap);
+}
+
+.controls input {
+  flex: 1;
+  min-width: 150px;
+}
+
+.controls button,
+.controls .btn-new {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.product-list {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-list li {
+  background: var(--background);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--fast);
+}
+.product-list li:hover {
+  transform: translateY(-4px);
+}
+
+.product-list li img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.product-list li .content {
+  padding: var(--gap);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.product-list li .content h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+.product-list li .content p {
+  flex: 1;
+  margin: 0 0 var(--gap);
+  color: var(--muted);
+}
+.product-list li .content .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

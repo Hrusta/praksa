@@ -1,0 +1,54 @@
+.product-form-page {
+  background: var(--surface);
+  padding: var(--gap);
+  border-radius: var(--radius);
+  max-width: var(--container-max);
+  margin: 0 auto var(--gap);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-form-page h2 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+.product-form {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+}
+.field-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.field-group input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+}
+
+
+.field-group input[type="number"]::-webkit-inner-spin-button,
+.field-group input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.btn-submit {
+  grid-column: 1 / -1;
+  justify-self: end;
+  background: var(--primary);
+  color: var(--surface);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  transition: background var(--fast);
+}
+.btn-submit:hover {
+  background: var(--primary-dark);
+}

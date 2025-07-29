@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S21",
+    "description": "Latest Samsung smartphone",
+    "price": 799.0,
+    "imageUrl": "https://trio.ba/wp-content/uploads/2021/10/0101832_mobitel-samsung-galaxy-s21-5g-8gb128gb-pink.jpeg",
+    "quantity": 15,
+    "createdAt": "2025-07-15"
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 13",
+    "description": "Latest Apple iPhone",
+    "price": 999.0,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-max-green-select?wid=940&hei=1112&fmt=png-alpha&.v=1644969385505",
+    "quantity": 10,
+    "createdAt": "2025-06-30"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6",
+    "description": "Latest Google smartphone",
+    "price": 699.0,
+    "imageUrl": "https://m.media-amazon.com/images/I/61ruKkvVIxL._UF894,1000_QL80_.jpg",
+    "quantity": 20,
+    "createdAt": "2025-08-01"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi Redmi Note 11",
+    "description": "Affordable midrange smartphone",
+    "price": 249.0,
+    "imageUrl": "https://tehnocentar.masineialati.ba/wp-content/uploads/sites/2/2023/06/Redmi-Note-11-starblue.jpg",
+    "quantity": 20,
+    "createdAt": "2025-05-10"
+  },
+  {
+    "id": 5,
+    "name": "OnePlus 9",
+    "description": "High-performance OnePlus device",
+    "price": 729.0,
+    "imageUrl": "https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9/Arcticsky_2080a_euna.png",
+    "quantity": 12,
+    "createdAt": "2025-04-18"
+  },
+  {
+    "id": 6,
+    "name": "Huawei P50",
+    "description": "Premium Huawei flagship",
+    "price": 799.0,
+    "imageUrl": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50.jpg",
+    "quantity": 8,
+    "createdAt": "2025-03-22"
+  },
+  {
+    "id": 7,
+    "name": "Nokia G50",
+    "description": "Durable 5G smartphone from Nokia",
+    "price": 299.0,
+    "imageUrl": "https://fdn2.gsmarena.com/vv/bigpic/nokia-g50.jpg",
+    "quantity": 25,
+    "createdAt": "2025-06-01"
+  },
+  {
+    "id": 8,
+    "name": "Motorola Edge 20",
+    "description": "Sleek Motorola Edge series",
+    "price": 499.0,
+    "imageUrl": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-20.jpg",
+    "quantity": 10,
+    "createdAt": "2025-06-15"
+  },
+  {
+    "id": 9,
+    "name": "Sony Xperia 5 III",
+    "description": "Compact flagship from Sony",
+    "price": 999.0,
+    "imageUrl": "https://www.tonerpartner.hr/userdata/products/685/1578112_0d.jpg",
+    "quantity": 6,
+    "createdAt": "2025-02-14"
+  },
+  {
+    "id": 10,
+    "name": "Asus ROG Phone 5",
+    "description": "Gaming powerhouse smartphone",
+    "price": 999.0,
+    "imageUrl": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-5.jpg",
+    "quantity": 5,
+    "createdAt": "2025-01-11"
+  },
+  {
+    "id": 11,
+    "name": "Oppo Find X3 Pro",
+    "description": "Latest imaging flagship from Oppo",
+    "price": 1149.0,
+    "imageUrl": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x3-pro.jpg",
+    "quantity": 5,
+    "createdAt": "2025-03-05"
+  },
+  {
+    "id": 12,
+    "name": "Realme 8 Pro",
+    "description": "Stylish midrange by Realme",
+    "price": 279.0,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ-aisryVjsBfOz9sqoQo1A_H2mpx1c8Xd4A&s",
+    "quantity": 15,
+    "createdAt": "2025-07-01"
+  },
+  {
+    "id": 13,
+    "name": "Vivo X60",
+    "description": "Professional photography smartphone",
+    "price": 629.0,
+    "imageUrl": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1615896019379/2c97a283a37f2af98aaafc12ce8952ce.png",
+    "quantity": 9,
+    "createdAt": "2025-05-29"
+  }
+]

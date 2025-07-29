@@ -1,0 +1,70 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.admin-menu {
+  background: var(--primary);
+}
+.admin-menu .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: var(--gap) 0;
+}
+.admin-menu h1 {
+  margin: 0;
+  color: var(--surface);
+  font-size: 1.25rem;
+}
+
+.admin-menu ul {
+  display: flex;
+  gap: var(--gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.admin-menu a {
+  color: var(--surface);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  background: transparent;
+  transition: background var(--fast);
+}
+.admin-menu a:hover {
+  background: rgba(255,255,255,0.15);
+}
+.admin-menu a.active {
+  background: rgba(255,255,255,0.25);
+  font-weight: bold;
+}
+
+
+.admin-menu button {
+  background: #e53935;
+  color: var(--surface);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  transition: background var(--fast);
+}
+.admin-menu button:hover {
+  background: #d32f2f;
+}
+
+.admin-content {
+  flex: 1;
+  padding: var(--gap) 0;
+  background: var(--background);
+}
+
+@media (max-width: 600px) {
+  .admin-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: var(--gap);
+  }
+}

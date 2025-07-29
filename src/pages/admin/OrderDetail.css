@@ -1,0 +1,127 @@
+.order-detail-page {
+  max-width: var(--container-max);
+  margin: var(--gap) auto;
+  padding: var(--gap);
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.order-detail-page h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.order-detail-page p {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.order-detail-page h3 {
+  margin: var(--gap) 0 0.5rem;
+  font-size: 1.25rem;
+  color: var(--text);
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.25rem;
+}
+
+.order-detail-page ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.order-detail-page ul li {
+  display: flex;
+  justify-content: space-between;
+  background: var(--background);
+  padding: var(--gap);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.order-detail-page ul li span {
+  color: var(--text);
+}
+
+.status-buttons {
+  display: flex;
+  gap: var(--gap);
+  margin-top: var(--gap);
+}
+
+.status-buttons button {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: var(--radius);
+  color: var(--surface);
+  font-weight: 500;
+  transition: background var(--fast);
+}
+
+.status-buttons button:nth-child(1) {
+  background: #388e3c; 
+}
+.status-buttons button:nth-child(1):hover {
+  background: #2e7d32;
+}
+
+.status-buttons button:nth-child(2) {
+  background: #d32f2f; 
+}
+.status-buttons button:nth-child(2):hover {
+  background: #c62828;
+}
+
+.status-buttons button:nth-child(3) {
+  background: var(--primary);
+}
+.status-buttons button:nth-child(3):hover {
+  background: var(--primary-dark);
+}
+
+.back-btn {
+  align-self: center;
+  margin-top: var(--gap);
+  background: #777;
+  color: var(--surface);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background var(--fast);
+}
+.back-btn:hover {
+  background: #555;
+}
+
+
+@media (max-width: 600px) {
+  .order-detail-page ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .order-detail-page ul li span {
+    width: 100%;
+  }
+  .status-buttons {
+    flex-direction: column;
+  }
+  .status-buttons button {
+    width: 100%;
+  }
+  .back-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
